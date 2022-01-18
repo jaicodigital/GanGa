@@ -1,0 +1,30 @@
+.bgUbi {
+  background-color: #fff;
+  margin-top: -50px;
+  z-index: 10px;
+
+}
+
+.leaflet-container {
+  display: flex;
+  position: relative;
+  width: 80vw;
+  height: 80vh;
+  left: 10vw;
+  border-radius: 15px;
+  top: -15px;
+  z-index: 10px;
+}
+
+.tittle {
+  z-index: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 70px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 80px;
+  top: 60px;
+  font-size: 30px;
+  font-weight: bold;
+}

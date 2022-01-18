@@ -1,0 +1,995 @@
+.containerCatalog {
+  background-color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 1601px) {
+  .download {
+    width: 40vw;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 250%;
+    margin-top: -5vh;
+  }
+
+  .bannerProd {
+    display: flex;
+    position: relative !important;
+    width: 120%;
+    max-height: 200px;
+    height: 40vh;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-image: url(../../Resources/bannerCatalogo1.gif) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+  .inf {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 30px;
+    position: relative;
+    right: 300px;
+  }
+
+  .conNameFil {
+    display: flex;
+    position: relative;
+    margin-bottom: 27%;
+    left: 12%;
+  }
+
+  .nameFil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+  }
+
+  .filtros {
+    width: 15%;
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  .filtros h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+
+  .inputContainerCatalog {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .selectFilter {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    left: 330%;
+    top: -11.2vw;
+  }
+
+  .select {
+    width: 80%;
+    height: 30px;
+    outline: 0;
+    border-radius: 12px;
+    padding: 0px 10px 0 10px;
+    font-size: 1em;
+    transition: all 0.25s ease;
+    color: rgb(99, 99, 99);
+    border: solid 1px #ccc;
+  }
+
+  .select:hover {
+    box-shadow: 0 5px 10px #00000030;
+    cursor: pointer;
+    border: none;
+  }
+
+  .bor {
+    width: 50%;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: #202020;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+  }
+
+  .bor:hover {
+    box-shadow: 10 10px 10px #320f6b30;
+    transition: all 0.25s ease;
+    background-color: #0b135e;
+    color: white;
+  }
+
+  .conBor {
+    display: flex;
+    position: relative;
+    left: 435%;
+    top: -15vw;
+  }
+
+  .containerCards {
+    justify-content: space-around;
+    padding-left: 15%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% 20%;
+    grid-template-rows: 30% 30%;
+    padding-right: 15%;
+    text-decoration: none;
+    margin-top: -15%;
+  }
+
+  .cardProducts {
+    position: relative;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .download {
+    width: 40vw;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 250%;
+    margin-top: -5vh;
+  }
+
+  .bannerProd {
+    width: 100%;
+    max-height: 400px;
+    height: 40vh;
+    border-radius: 10px;
+    background-image: url(../../Resources/bannerCatalogo1.gif) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+  .inf {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 30px;
+    position: relative;
+    right: 300px;
+  }
+
+  .conNameFil {
+    display: flex;
+    position: relative;
+    margin-bottom: 27%;
+    left: 12%;
+  }
+
+  .nameFil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+  }
+
+  .filtros {
+    width: 15%;
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  .filtros h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+
+  .inputContainerCatalog {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .selectFilter {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    left: 330%;
+    top: -11.2vw;
+  }
+
+  .select {
+    width: 80%;
+    height: 30px;
+    outline: 0;
+    border-radius: 12px;
+    padding: 0px 10px 0 10px;
+    font-size: 1em;
+    transition: all 0.25s ease;
+    color: rgb(99, 99, 99);
+    border: solid 1px #ccc;
+  }
+
+  .select:hover {
+    box-shadow: 0 5px 10px #00000030;
+    cursor: pointer;
+    border: none;
+  }
+
+  .bor {
+    width: 50%;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: #202020;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+  }
+
+  .bor:hover {
+    box-shadow: 10 10px 10px #320f6b30;
+    transition: all 0.25s ease;
+    background-color: #0b135e;
+    color: white;
+  }
+
+  .conBor {
+    display: flex;
+    position: relative;
+    left: 435%;
+    top: -15vw;
+  }
+
+  .containerCards {
+    justify-content: space-around;
+    padding-left: 15%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% 20%;
+    grid-template-rows: 30% 30%;
+    padding-right: 15%;
+    text-decoration: none;
+    margin-top: -15%;
+  }
+
+  .cardProducts {
+    position: relative;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .download {
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left: 200%;
+    margin-top: -5vh;
+  }
+
+  .bannerProd {
+    display: flex;
+    width: 80%;
+    max-height: 350px;
+    height: 250px;
+    margin-left: 10%;
+    margin-top: 12vh;
+    border-radius: 10px;
+    background-image: url(../../Resources/bannerCatalogo1.gif) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .inf {
+    width: 80%;
+    margin-top: -10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    position: relative;
+    right: 300px;
+  }
+
+  .conNameFil {
+    display: flex;
+    position: relative;
+    margin-bottom: 27%;
+    margin-top: 10%;
+    left: 12%;
+  }
+
+  .nameFil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+  }
+
+  .filtros {
+    width: 20%;
+    height: auto;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .filtros h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+
+  .inputContainerCatalog {
+    width: 100%;
+    height: 40px;
+    margin-top: -8px;
+  }
+
+  .selectFilter {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    left: 330%;
+    top: -11.2vw;
+  }
+
+  .select {
+    width: 80%;
+    height: 30px;
+    outline: 0;
+    border-radius: 12px;
+    padding: 0px 10px 0 10px;
+    font-size: 0.8em;
+    transition: all 0.25s ease;
+    color: rgb(99, 99, 99);
+    border: solid 1px #ccc;
+  }
+
+  .select:hover {
+    box-shadow: 0 5px 10px #00000030;
+    cursor: pointer;
+    border: none;
+  }
+
+  .bor {
+    width: 50%;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: #202020;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    right: 30px;
+  }
+
+  .bor:hover {
+    box-shadow: 10 10px 10px #320f6b30;
+    transition: all 0.25s ease;
+    background-color: #0b135e;
+    color: white;
+  }
+
+  .conBor {
+    display: flex;
+    position: relative;
+    left: 435%;
+    top: -15vw;
+  }
+
+  .containerCards {
+    justify-content: space-around;
+    padding-left: 15%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% 20%;
+    grid-template-rows: 30% 30%;
+    padding-right: 15%;
+    text-decoration: none;
+    margin-top: -15%;
+  }
+
+  .cardProducts {
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 100px;
+    position: relative;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .download {
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100%;
+    margin-top: -5vh;
+  }
+
+  .bannerProd {
+    width: 100%;
+    max-height: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-image: url(../../Resources/bannerCatalogo1.gif) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    top: -40px;
+  }
+
+  .inf {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 30px;
+    position: relative;
+    right: 300px;
+  }
+
+  .conNameFil {
+    display: flex;
+    position: relative;
+    margin-bottom: 27%;
+    left: 12%;
+  }
+
+  .nameFil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+  }
+
+  .filtros {
+    width: 100%;
+    height: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .Filtros h1 {
+    display: none;
+  }
+
+  .inputContainerCatalog {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+
+  .selectFilter {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    left: 330%;
+    top: -11.2vw;
+  }
+
+  .select {
+    width: 90px;
+    height: 20px;
+    outline: 0;
+    border-radius: 12px;
+    padding: 0px 10px 0 10px;
+    font-size: 0.8em;
+    transition: all 0.25s ease;
+    color: rgb(99, 99, 99);
+    border: solid 1px #ccc;
+  }
+
+  .select:hover {
+    box-shadow: 0 5px 10px #00000030;
+    cursor: pointer;
+    border: none;
+  }
+
+  .bor {
+    width: 50%;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: #202020;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+  }
+
+  .bor:hover {
+    box-shadow: 10 10px 10px #320f6b30;
+    transition: all 0.25s ease;
+    background-color: #0b135e;
+    color: white;
+  }
+
+  .conBor {
+    display: flex;
+    position: relative;
+    left: 435%;
+    top: -15vw;
+  }
+
+  .containerCards {
+    justify-content: space-around;
+    padding-left: 15%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% 20%;
+    grid-template-rows: 30% 30%;
+    padding-right: 15%;
+    text-decoration: none;
+    margin-top: -15%;
+  }
+
+  .cardProducts {
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .download {
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100%;
+    margin-top: -5vh;
+  }
+
+  .bannerProd {
+    width: 100%;
+    max-height: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url(../../Resources/bannerCatalogo1.gif) !important;
+    background-position: center center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    top: -20px;
+  }
+
+  .inf {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 30px;
+    position: relative;
+    right: 300px;
+  }
+
+  .conNameFil {
+    display: flex;
+    position: relative;
+    top: -30px;
+  }
+
+  .nameFil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+  }
+
+  .filtros {
+    width: 100%;
+    height: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-around;
+  }
+
+  .Filtros h1 {
+    display: none;
+  }
+
+  .inputContainerCatalog {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+
+  .selectFilter {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    left: 330%;
+    top: -11.2vw;
+  }
+
+  .select {
+    width: 90px;
+    height: 20px;
+    outline: 0;
+    border-radius: 12px;
+    padding: 0px 10px 0 10px;
+    font-size: 0.8em;
+    transition: all 0.25s ease;
+    color: rgb(99, 99, 99);
+    border: solid 1px #ccc;
+  }
+
+  .select:hover {
+    box-shadow: 0 5px 10px #00000030;
+    cursor: pointer;
+    border: none;
+  }
+
+  .bor {
+    width: 50%;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: #202020;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+  }
+
+  .bor:hover {
+    box-shadow: 10 10px 10px #320f6b30;
+    transition: all 0.25s ease;
+    background-color: #0b135e;
+    color: white;
+  }
+
+  .conBor {
+    display: flex;
+    position: relative;
+    left: 435%;
+    top: -15vw;
+  }
+
+  .containerCards {
+    justify-content: space-around;
+    padding-left: 15%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% 20%;
+    grid-template-rows: 30% 30%;
+    padding-right: 15%;
+    text-decoration: none;
+    margin-top: -15%;
+  }
+
+  .cardProducts {
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .download {
+    width: 20vw;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 70%;
+    margin-top: -5vh;
+  }
+
+  .bannerProd {
+    width: 100%;
+    max-height: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url(../../Resources/bannerCatalogo1.gif) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    top: -20px;
+  }
+
+  .inf {
+    width: 95%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: -50px;
+  }
+
+  .conNameFil {
+    display: flex;
+    position: relative;
+    top: -30px;
+  }
+
+  .nameFil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+  }
+
+  .filtros {
+    width: 90%;
+    height: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-around;
+  }
+
+  .Filtros h1 {
+    display: none;
+  }
+
+  .inputContainerCatalog {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+
+  .selectFilter {
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    left: 330%;
+    top: -11.2vw;
+  }
+
+  .select {
+    width: 90px;
+    height: 20px;
+    outline: 0;
+    border-radius: 12px;
+    padding: 0px 10px 0 10px;
+    font-size: 0.8em;
+    transition: all 0.25s ease;
+    color: rgb(99, 99, 99);
+    border: solid 1px #ccc;
+  }
+
+  .select:hover {
+    box-shadow: 0 5px 10px #00000030;
+    cursor: pointer;
+    border: none;
+  }
+
+  .bor {
+    width: 50%;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: #202020;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+  }
+
+  .bor:hover {
+    box-shadow: 10 10px 10px #320f6b30;
+    transition: all 0.25s ease;
+    background-color: #0b135e;
+    color: white;
+  }
+
+  .conBor {
+    display: flex;
+    position: relative;
+    left: 435%;
+    top: -15vw;
+  }
+
+  .containerCards {
+    justify-content: space-around;
+    padding-left: 15%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% 20%;
+    grid-template-rows: 30% 30%;
+    padding-right: 15%;
+    text-decoration: none;
+    margin-top: -15%;
+  }
+
+  .cardProducts {
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .download {
+    width: 10vw;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 40%;
+    margin-top: -5vh;
+  }
+
+  .bannerProd {
+    width: 100%;
+    max-height: 170px;
+    height: 150px;
+    border-radius: 10px;
+    background-image: url(../../Resources/bannerCatalogo1.gif) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    overflow: hidden;
+    position: relative;
+    top: 5px;
+  }
+
+  .inf {
+    width: 95%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: -50px;
+  }
+
+  .conNameFil {
+    display: flex;
+    position: relative;
+    top: -30px;
+  }
+
+  .nameFil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+  }
+
+  .filtros {
+    width: 90%;
+    height: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-evenly;
+  }
+
+  .Filtros h1 {
+    display: none;
+  }
+
+  .inputContainerCatalog {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+
+  .selectFilter {
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    left: 330%;
+    top: -11.2vw;
+  }
+
+  .select {
+    width: 90px;
+    height: 20px;
+    outline: 0;
+    border-radius: 12px;
+    padding: 0px 10px 0 10px;
+    font-size: 0.7em;
+    transition: all 0.25s ease;
+    color: rgb(99, 99, 99);
+    border: solid 1px #ccc;
+  }
+
+  .select:hover {
+    box-shadow: 0 5px 10px #00000030;
+    cursor: pointer;
+    border: none;
+  }
+
+  .bor {
+    width: 50%;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: #202020;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+  }
+
+  .bor:hover {
+    box-shadow: 10 10px 10px #320f6b30;
+    transition: all 0.25s ease;
+    background-color: #0b135e;
+    color: white;
+  }
+
+  .conBor {
+    display: flex;
+    position: relative;
+    left: 435%;
+    top: -15vw;
+  }
+
+  .containerCards {
+    justify-content: space-around;
+    padding-left: 15%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% 20%;
+    grid-template-rows: 30% 30%;
+    padding-right: 15%;
+    text-decoration: none;
+    margin-top: -15%;
+  }
+
+  .cardProducts {
+    position: relative;
+    float: left;
+    margin-bottom: 20px;
+  }
+}

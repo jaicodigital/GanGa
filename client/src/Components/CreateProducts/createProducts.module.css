@@ -1,0 +1,134 @@
+.body{
+    background-image: url("vector.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: auto;
+    display:flex;
+    justify-content: center;
+    padding-bottom: 50px;    
+}
+.form{
+    margin-top: 30px;
+    background-color: #b1b1b171;
+    height: 700px;
+    width: 1300px;
+    border-radius: 10px;
+    border: 2px solid rgba(230, 230, 230, 0.575);
+    display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+
+
+}
+.grid1{
+  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.derec{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px;
+}
+.izq{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px;
+}
+
+
+.grid3 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    height:350px;
+}
+
+.grid{
+    display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+.name{
+       
+}
+.price{
+    margin-bottom: 25px;       
+}
+.marca{
+    padding-bottom: 25px;   
+}
+.descri{
+    padding-bottom: 50px;    
+}
+.product{
+    padding-bottom: 15px;
+}
+.stock{
+    padding-bottom: 25px;
+}
+.cate{
+    padding-bottom: 25px;
+}
+.Input{
+    background-color: rgb(255, 255, 255);
+}
+
+.Input {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+    border-width: 1px;
+    border-color: #cacaca;
+    opacity: 0.4;
+    padding-left: 6px;
+  }
+
+  .imagenSubida {
+    width: 220px;
+    height: 180px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.imgName{
+    color: transparent;
+}
+  .crear {
+    background-color: rgb(131, 245, 131);
+    width: 200px;
+    height: 35px;
+    color: honeydew;
+    border-radius: 23%;
+    border-width: 1px;
+    border-color: rgb(149, 207, 149);
+    padding-bottom: 10px;
+}
+
+.crear:hover {
+    background-color: rgb(219, 248, 219);
+    width: 200px;
+    height: 40px;
+    color: rgb(77, 75, 75);
+    border-radius: 13%;
+    border-width: 2px;
+    border-color: rgb(0, 255, 0);
+}

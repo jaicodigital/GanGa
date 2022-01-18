@@ -1,0 +1,19 @@
+{
+  "places": [
+    {
+      "description": "Los mejores productos, a los mejores precios al alcance de todos",
+      "name": "Oficina principal GanGa Industries",
+      "geometry": [4.99447, -74.21052]
+    },
+    {
+      "description": "Despacho general de ventas interior",
+      "name": "Bodegas GanGa Industries",
+      "geometry": [6.24931, -75.56473]
+    },
+    {
+      "description": "Despacho general de ventas zona norte",
+      "name": "Bodegas caribe GanGa Industries",
+      "geometry": [10.39613, -75.48586]
+    }
+  ]
+}

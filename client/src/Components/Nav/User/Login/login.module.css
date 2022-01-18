@@ -1,0 +1,29 @@
+
+.left {
+  position: absolute;
+  height: 615px;
+  width: 658px;
+  top: 40px;
+  left: 40px;
+}
+
+.right {
+    position: absolute;
+    height: 615px;
+    width: 658px;
+    top:40px;
+    right: 40px;
+    text-align: center;
+    background-color: white;
+  }
+
+  .foto {
+    height: 608px;
+    width: 678px;
+  }
+  
+  .fondo{
+    height: 688px;
+    width: 1396px;
+  }
+  

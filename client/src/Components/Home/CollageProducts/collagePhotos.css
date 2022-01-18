@@ -1,0 +1,1038 @@
+.bg {
+  /* background-image: url("https://st3.depositphotos.com/30440304/34113/i/450/depositphotos_341136250-stock-photo-geometric-multicolored-intersecting-lines-graphic.jpg"); */
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 98.7vw;
+  padding: 10px;
+}
+
+.HomeContainer {
+  width: 100vw;
+  max-height: 580px;
+  margin: 100px 60px;
+  display: flex;
+  position: absolute;
+  right: -60px;
+  flex-direction: row;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.Images {
+  width: 80%;
+  height: 600px;
+  max-height: 600px;
+}
+
+@media (min-width: 1400px) {
+  .HomeContent {
+    width: 80%;
+    min-height: 30%;
+    margin: 0 auto;
+    position: relative;
+    top: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(300px);
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+
+  .Title {
+    width: 60%;
+    height: 22%;
+    padding: 5% 0;
+    color: #fff;
+    font-size: 48px;
+    border: solid #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .HomeContent p {
+    width: 60%;
+    margin-top: 10px;
+    font-size: 1.2vw;
+    color: #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+  }
+
+  .divTitle {
+    width: 36%;
+    height: 100%;
+    margin-right: 14px;
+    float: left;
+    background-image: url("../../Resources/collage1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s all;
+  }
+
+  .divTitle:hover .HomeContent {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  .HomeContent2 {
+    width: 80%;
+    /* height: 50%; */
+    margin: 0 auto;
+    position: relative;
+    top: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transform: translateX(400px);
+    opacity: 0;
+    transition: 0.5s ease;
+    /* border: thin dotted #f00; */
+  }
+
+  .HomeContent2 p {
+    width: 60%;
+    margin-left: 10px;
+    font-size: 1.2vw;
+    text-align: left;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+  }
+
+  .Title2 {
+    width: 55%;
+    height: 40%;
+    padding: 5% 2%;
+    color: #fff;
+    font-size: 48px;
+    border: solid #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .divTitle2 {
+    width: 35.5%;
+    height: 49%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    background-image: url("../../Resources/collage2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s all;
+  }
+
+  .divTitle2:hover .HomeContent2 {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+
+  .Title3 {
+    width: 55%;
+    height: 40%;
+    padding: 5% 2%;
+    color: #fff;
+    font-size: 48px;
+    border: solid #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .HomeContent3 {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transform: translateX(400px);
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+
+  .HomeContent3 p {
+    width: 60%;
+    margin-left: 10px;
+    font-size: 1.2vw;
+    text-align: left;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+  }
+
+  .divTitle3 {
+    width: 35.5%;
+    height: 49%;
+    margin-right: 10px;
+    float: left;
+    background-image: url("../../Resources/collage3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s all;
+  }
+
+  .divTitle3:hover .HomeContent3 {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+
+  .HomeContent4 {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-400px);
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+
+  .HomeContent4 p {
+    width: 80%;
+    margin-left: 10px;
+    font-size: 1.2vw;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+  }
+
+  .Title4 {
+    width: 75%;
+    height: 30%;
+    padding: 5% 2%;
+    color: #fff;
+    font-size: 48px;
+    border: solid #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .divTitle4 {
+    width: 26%;
+    height: 60%;
+    float: right;
+    margin-bottom: 10px;
+    background-image: url("../../Resources/collage4.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s all;
+  }
+
+  .divTitle4:hover .HomeContent4 {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .Images {
+    width: 75%;
+    height: 500px;
+    max-height: 500px;
+  }
+
+  .HomeContent {
+    width: 80%;
+    min-height: 30%;
+    margin: 0 auto;
+    position: relative;
+    top: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(300px);
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+
+  .Title {
+    width: 70%;
+    height: 22%;
+    padding: 10px;
+    color: #fff;
+    font-size: 48px;
+    border: solid #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .HomeContent p {
+    width: 60%;
+    margin-top: 10px;
+    font-size: 1.2vw;
+    color: #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+  }
+
+  .divTitle {
+    width: 35%;
+    height: 100%;
+    margin-right: 14px;
+    float: left;
+    background-image: url("../../Resources/collage1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s all;
+  }
+
+  .divTitle:hover .HomeContent {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  .HomeContent2 {
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+    top: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transform: translateX(400px);
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+
+  .HomeContent2 p {
+    width: 50%;
+    margin-left: 10px;
+    font-size: 1.1vw;
+    text-align: left;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+  }
+
+  .Title2 {
+    width: 50%;
+    height: 40%;
+    padding: 10px;
+    color: #fff;
+    font-size: 2.5vw;
+    border: solid #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .divTitle2 {
+    width: 35.5%;
+    height: 49%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    background-image: url("../../Resources/collage2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s all;
+  }
+
+  .divTitle2:hover .HomeContent2 {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+
+  .Title3 {
+    width: 50%;
+    height: 40%;
+    padding: 10px;
+    color: #fff;
+    font-size: 2.5vw;
+    border: solid #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .HomeContent3 {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 35%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transform: translateX(400px);
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+
+  .HomeContent3 p {
+    width: 100%;
+    margin-left: 10px;
+    font-size: 1.1vw;
+    text-align: left;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+  }
+
+  .divTitle3 {
+    width: 35.5%;
+    height: 49%;
+    margin-right: 10px;
+    float: left;
+    background-image: url("../../Resources/collage3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s all;
+  }
+
+  .divTitle3:hover .HomeContent3 {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+
+  .HomeContent4 {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-400px);
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+
+  .HomeContent4 p {
+    width: 80%;
+    margin-top: 10px;
+    font-size: 1.1vw;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+  }
+
+  .Title4 {
+    width: 66%;
+    height: 30%;
+    padding: 12px;
+    color: #fff;
+    font-size: 2.5vw;
+    border: solid #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .divTitle4 {
+    width: 26.8%;
+    height: 100%;
+    float: right;
+    margin-bottom: 10px;
+    background-image: url("../../Resources/collage4.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s all;
+  }
+
+  .divTitle4:hover .HomeContent4 {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .Images {
+    width: 75%;
+    height: 500px;
+    max-height: 500px;
+  }
+
+  .HomeContent {
+    width: 80%;
+    min-height: 30%;
+    margin: 0 auto;
+    position: relative;
+    top: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(300px);
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+
+  .Title {
+    width: 75%;
+    height: 22%;
+    padding: 7px;
+    color: #fff;
+    font-size: 44px;
+    border: solid #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .HomeContent p {
+    width: 80%;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+  }
+
+  .divTitle {
+    width: 35.5%;
+    height: 100%;
+    margin-right: 14px;
+    float: left;
+    background-image: url("../../Resources/collage1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s all;
+  }
+
+  .divTitle:hover .HomeContent {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  .HomeContent2 {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(400px);
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+
+  .HomeContent2 p {
+    width: 70%;
+    margin-left: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+  }
+
+  .Title2 {
+    width: 50%;
+    height: 40%;
+    padding: 7px;
+    color: #fff;
+    font-size: 30px;
+    border: solid #fff;
+    text-shadow: 0 10px 5px rgba(0, 0, 0, 1);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
+  }
+
+  .divTitle2 {
+    width: 35%;
+    height: 49%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    background-image: url("../../Resources/collage2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s all;
+  }
+
+  .divTitle2:hover .HomeContent2 {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+
+  .Title3 {
+    width: 60%;
+    height: 40%;
+    padding: 7px;
+    color: #fff;
+    font-size: 30px;
+    border: solid #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .HomeContent3 {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(400px);
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+
+  .HomeContent3 p {
+    width: 100%;
+    margin-left: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+  }
+
+  .divTitle3 {
+    width: 35%;
+    height: 49%;
+    margin-right: 10px;
+    float: left;
+    background-image: url("../../Resources/collage3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s all;
+  }
+
+  .divTitle3:hover .HomeContent3 {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+
+  .HomeContent4 {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-400px);
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+
+  .HomeContent4 p {
+    width: 90%;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+  }
+
+  .Title4 {
+    width: 80%;
+    height: 30%;
+    padding: 10px;
+    color: #fff;
+    font-size: 35px;
+    border: solid #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .divTitle4 {
+    width: 26%;
+    height: 60%;
+    float: right;
+    margin-bottom: 10px;
+    background-image: url("../../Resources/collage4.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s all;
+  }
+
+  .divTitle4:hover .HomeContent4 {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .Images {
+    width: 80%;
+    height: 500px;
+    max-height: 500px;
+  }
+
+  .HomeContent {
+    width: 80%;
+    min-height: 30%;
+    margin: 0 auto;
+    position: relative;
+    top: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(300px);
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+
+  .Title {
+    width: 75%;
+    height: 20%;
+    padding: 7px;
+    color: #fff;
+    font-size: 48px;
+    border: solid #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .HomeContent p {
+    width: 80%;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+  }
+
+  .divTitle {
+    max-width: 47%;
+    height: 100%;
+    margin-right: 12px;
+    float: left;
+    background-image: url("../../Resources/collage1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s all;
+  }
+
+  .divTitle:hover .HomeContent {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  .HomeContent2 {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(400px);
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+
+  .HomeContent2 p {
+    width: 70%;
+    margin-left: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+  }
+
+  .Title2 {
+    width: 55%;
+    height: 30%;
+    padding: 7px;
+    color: #fff;
+    font-size: 40px;
+    border: solid #fff;
+    text-shadow: 0 10px 5px rgba(0, 0, 0, 1);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
+  }
+
+  .divTitle2 {
+    width: 49%;
+    height: 49%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    background-image: url("../../Resources/collage2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s all;
+  }
+
+  .divTitle2:hover .HomeContent2 {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+
+  .HomeContent4 {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(400px);
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+
+  .HomeContent4 p {
+    width: 90%;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+  }
+
+  .Title4 {
+    width: 55%;
+    height: 30%;
+    padding: 10px;
+    color: #fff;
+    font-size: 40px;
+    border: solid #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .divTitle4 {
+    width: 49%;
+    height: 49%;
+    margin-right: 10px;
+    float: right;
+    background-image: url("../../Resources/collage4.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s all;
+  }
+
+  .divTitle4:hover .HomeContent4 {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .HomeContainer {
+    margin: 50px 0;
+  }
+
+  .Images {
+    width: 85%;
+    height: 500px;
+    max-height: 500px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .HomeContent,
+  .HomeContent2,
+  .HomeContent3,
+  .HomeContent4 {
+    width: 80%;
+    min-height: 30%;
+    margin: 0 auto;
+    position: relative;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+
+  .HomeContent,
+  .HomeContent2,
+  .HomeContent3,
+  .HomeContent4 {
+    width: 80%;
+    min-height: 30%;
+    margin: 0 auto;
+    position: relative;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(300px);
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+
+  .HomeContent p,
+  .HomeContent2 p,
+  .HomeContent3 p,
+  .HomeContent4 p {
+    width: 80%;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+  }
+
+  .Title,
+  .Title2,
+  .Title3,
+  .Title4 {
+    width: 60%;
+    height: 30%;
+    padding: 10px;
+    color: #fff;
+    font-size: 26px;
+    border: solid #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .divTitle {
+    width: 48%;
+    height: 48%;
+    margin: 0 5px 5px 0;
+    background-image: url("../../Resources/collage1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s all;
+  }
+
+  .divTitle2 {
+    width: 48%;
+    height: 48%;
+    margin-bottom: 5px;
+    background-image: url("../../Resources/collage2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s all;
+  }
+
+  .divTitle3 {
+    width: 48%;
+    height: 48%;
+    background-image: url("../../Resources/collage3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s all;
+  }
+
+  .divTitle4 {
+    width: 48%;
+    height: 48%;
+    margin-right: 5px;
+    background-image: url("../../Resources/collage4.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s all;
+  }
+
+  .divTitle:hover .HomeContent {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  .divTitle2:hover .HomeContent2 {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+
+  .divTitle3:hover .HomeContent3 {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  .divTitle4:hover .HomeContent4 {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 575px) {
+  .HomeContainer {
+    margin: 50px 0;
+  }
+
+  .Images {
+    width: 85%;
+    height: 400px;
+    max-height: 400px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .HomeContent,
+  .HomeContent2,
+  .HomeContent3,
+  .HomeContent4 {
+    width: 90%;
+    min-height: 30%;
+    margin: 0 auto;
+    position: relative;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  s .HomeContent p,
+  .HomeContent2 p,
+  .HomeContent3 p,
+  .HomeContent4 p {
+    width: 90%;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+  }
+
+  .HomeContent p {
+    width: 90%;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+  }
+
+  .Title,
+  .Title2,
+  .Title3,
+  .Title4 {
+    width: 60%;
+    height: 30%;
+    padding: 10px;
+    color: #fff;
+    border: solid #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .divTitle,
+  .divTitle2,
+  .divTitle3,
+  .divTitle4 {
+    width: 48%;
+    height: 48%;
+    margin: 0 5px 5px 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s all;
+  }
+
+  .divTitle {
+    background-image: url("../../Resources/collage1.jpg");
+  }
+
+  .divTitle2 {
+    background-image: url("../../Resources/collage2.jpg");
+  }
+
+  .divTitle3 {
+    background-image: url("../../Resources/collage3.jpg");
+  }
+
+  .divTitle4 {
+    background-image: url("../../Resources/collage4.jpg");
+  }
+}

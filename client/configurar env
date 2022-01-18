@@ -1,0 +1,3 @@
+crear un archivo .env sobre client y pegar:
+
+SKIP_PREFLIGHT_CHECK=true

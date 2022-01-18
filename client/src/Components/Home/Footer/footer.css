@@ -1,0 +1,89 @@
+.body {
+  background-color: rgb(0, 56, 82);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 55vh;
+  padding-top: 10px;
+  padding-right: 9.7px;
+}
+
+.titulo {
+  font-family: Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  right: 1150px;
+ margin-top: 55px;
+}
+
+.eslogan {
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  position: absolute;
+  right: 1245px;
+  margin-top: 68px;
+}
+
+.texTuEres {
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  position: absolute;
+  right: 800px;
+  left: 30px;
+  margin-top: 114px;
+}
+
+.vender {
+  font-family: Tahoma, sans-serif;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding-left: 870px;
+  margin-top: -110px;
+}
+
+.textVender {
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  color: rgb(213, 255, 145);
+  font-weight: normal;
+  padding-left: 870px;
+  margin-top: -4px;
+}
+
+.ubicacion {
+  font-family: Tahoma, sans-serif;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  position: absolute;
+  left: 635px;
+  margin-top: 60px;
+}
+
+.textUbicacion {
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  position: absolute;
+  left: 635px;
+  margin-top: 110px;
+}
+
+.copyright {
+  background-color: rgb(204, 217, 241);
+  width: 100.7%;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  font-weight: normal;
+  padding-left: 600px;
+  margin-top: 320px;
+}

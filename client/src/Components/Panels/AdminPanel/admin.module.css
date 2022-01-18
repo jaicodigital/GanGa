@@ -1,0 +1,166 @@
+.container {
+    display: flex;
+}
+
+
+
+.sidebar {
+    flex: 1;
+    background: rgb(177, 177, 177);
+    min-height: 700px;
+    height: auto;
+    border-width: 4px;
+    border-color: rgb(165, 165, 165);
+
+}
+
+.body {
+    flex: 4;
+}
+
+.widgets {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.widgetBox {
+    box-shadow: 0px 7px 60px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 7px 60px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 60px -4px rgba(0,0,0,0.75);
+    width: 200px;
+    height: 170px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 34px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 25px;
+}
+
+.newInfo {
+    display: flex;
+    padding-top: 20px;
+}
+
+.newUsersContainer {
+    flex: 1;
+    padding-bottom: 40px;
+}
+
+.newSalesContainer {
+    flex: 2;
+}
+
+.newUser {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    margin-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    width: 250px;
+    background-color: rgb(243, 243, 243);
+}
+
+.newUser:hover {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(31, 31, 31, 0.75);
+    margin-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    width: 250px;
+    background-color: white;
+    border-width: 1px;
+    border-color: rgb(182, 182, 182);
+}
+.newSale {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(31, 31, 31, 0.75);
+    margin-top: 10px;
+    justify-content: space-between;
+    width: 700px;
+    border-width: 3px;
+    border-color: rgb(112, 112, 112);
+}
+
+.sale {
+  text-align: center;
+  margin-top: 20px;
+  border-width: 2px;
+  border-color: rgb(117, 117, 117);
+}
+
+
+
+.listaUsuarios {
+    height: 500px;
+    padding-top: 20px;
+}
+
+
+
+.listaProductos {
+    height: 550px;
+}
+
+
+
+
+.listaVendedores {
+    height: 600px;
+}
+
+.delete {
+    color:rgb(199, 2, 2);
+    width: 60px;
+    font-size: 30px;
+}
+
+.editar {
+    background-color: rgb(131, 245, 131);
+    width: 54px;
+    height: 15px;
+    color: honeydew;
+    border-radius: 23%;
+    border-width: 1px;
+    border-color: rgb(149, 207, 149);
+    padding-bottom: 30px;
+    vertical-align: text-top;
+}
+
+.editar:hover {
+    background-color: rgb(219, 248, 219);
+    width: 54px;
+    height: 15px;
+    color: rgb(4, 245, 4);
+    border-radius: 13%;
+    border-width: 2px;
+    border-color: rgb(0, 255, 0);
+    padding-bottom: 30px;
+    vertical-align: text-top;
+}
+
+.btnActualizar {
+    background-color: rgb(131, 245, 131);
+    width: 84px;
+    height: 25px;
+    color: honeydew;
+    border-radius: 23%;
+    border-width: 1px;
+    border-color: rgb(149, 207, 149);
+    padding-bottom: 10px;
+}
+
+.btnActualizar:hover {
+    background-color: rgb(219, 248, 219);
+    width: 84px;
+    height: 25px;
+    color: rgb(4, 245, 4);
+    border-radius: 13%;
+    border-width: 2px;
+    border-color: rgb(0, 255, 0);
+}
